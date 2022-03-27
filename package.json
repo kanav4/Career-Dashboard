@@ -1,0 +1,29 @@
+{
+  "name": "cms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^33.0.0",
+    "@ckeditor/ckeditor5-react": "^4.0.0",
+    "axios": "^0.21.1",
+    "html-entities": "^2.3.2",
+    "isomorphic-unfetch": "^3.1.0",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-loading-skeleton": "^3.0.1",
+    "react-update-url-on-scroll": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
